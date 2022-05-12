@@ -1,0 +1,64 @@
+// use ('lenguajes');
+
+// db.lenguajes.insertOne({
+
+//   nombre:'javascript',
+//   poo:'si',
+//   ultimaVersion:'ECMAScript 2021',
+//   nivelcomplejidad:'simple'
+// })
+
+// db.lenguajes.insertOne({
+
+//   nombre:'java',
+//   poo:'si',
+//   ultimaVersion:'java 8',
+//   nivelcomplejidad:'simple'
+// })
+
+// db.lenguajes.insertOne({
+
+//   nombre:'python',
+//   poo:'si',
+//   ultimaVersion:'python 3.9.7',
+//   nivelcomplejidad:'simple'
+// })
+
+// db.lenguajes.insertOne({
+
+//   nombre:'C#',
+//   poo:'si',
+//   ultimaVersion:'9.0',
+//   nivelcomplejidad:'simple'
+// })
+
+// db.lenguajes.insertOne({
+
+//   nombre:'Go',
+//   poo:'si',
+//   ultimaVersion:'1.2',
+//   nivelcomplejidad:'simple'
+// })
+
+
+// // Consulta global de los lenguajes
+// db.lenguajes.find()
+ 
+// // Consulta individual de los lenguajes
+// db.lenguajes.find({"nombre": "javascript"})
+
+// // ---------Actualizar ----------------
+//  db.lenguajes.update({nombre:'javascript'},{ultimaVersion: '17'})
+
+db.lenguajes.insertOne({
+
+  nombre:'Go',
+  poo:'si',
+  ultimaVersion:'1.2',
+  vesiones:{
+    masActuales:["3","4","5"]
+  }
+
+  nivelcomplejidad:'simple',
+
+})
